@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app0.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+   
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/comida3.jpg','imagenes/merca4.jpg','imagenes/derecho1.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CARRERAS </h1>
+  </div>
+     <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>DERECHO</h2>
+    
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>GASTRONOMIA </h2>
+        
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>MERCADOTECNIA</h2>
+         
+           </a>
+           </li>
+           
+                  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>AUTOR</h1>
+          <div>
+        
+              <p align="center">CBTIS 16 </p>
+            <p align="center"> Centro De Bachilleratos Industrial y De Serevicios.</p>
+            <p align="center"> Oscar Jomsar Martinez Picazo</p>
+               <p align="center">GRADO:4 GRUPO:"H"</p>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Diez</h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1><b>DERECHO</b></h1>
+  </div>
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/derecho3.jpg" alt="derecho3" title="derecho3" id="wows1_0"/></li>
+		<li><img src="visor/data1/images/derecho1.jpg" alt="derecho1" title="derecho1" id="wows1_1"/></li>
+		<li><img src="visor/data1/images/derecho2.jpg" alt="derecho2" title="derecho2" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/derecho4.jpg" alt="wowslider.com" title="derecho4" id="wows1_3"/></a></li>
+		<li><img src="data1/images/derecho5.jpg" alt="derecho5" title="derecho5" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="derecho3"><span><img src="visor/data1/tooltips/derecho3.jpg" alt="derecho3"/>1</span></a>
+		<a href="#" title="derecho1"><span><img src="visor/data1/tooltips/derecho1.jpg" alt="derecho1"/>2</span></a>
+		<a href="#" title="derecho2"><span><img src="visor/data1/tooltips/derecho2.jpg" alt="derecho2"/>3</span></a>
+		<a href="#" title="derecho4"><span><img src="visor/data1/tooltips/derecho4.jpg" alt="derecho4"/>4</span></a>
+		<a href="#" title="derecho5"><span><img src="visor/data1/tooltips/derecho5.jpg" alt="derecho5"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+	<script type="text/javascript" src="visor/engine1/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+
+
+  <div data-role="content" align="">
+                   <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>¿De que se trata?</h1>
+          <div>
+          <iframe align="center" width="60%" height="60%" src="https://www.youtube.com/embed/sxQ696_5Tgc" frameborder="0" allowfullscreen></iframe>
+        <p>Litigaré en áreas tradicionales como civil, penal, mercantil y familiar, de manera independiente o para firmas legales, incluyendo el litigio oral.</p>
+ <p>Realizaré consejería y consultoría legal corporativa.</p>
+ <p>Desarrollaré estrategias legales dentro de la administración pública.</p>
+ <p>Aplicaré el derecho internacional en el ordenamiento legal nacional.</p>
+ <p>Desempeñaré actividades relacionadas con notarías y corredurías públicas.</p>
+ <p>Trabajaré en órganos involucrados con la impartición de justicia.</p>
+ <p>Crearé estrategias legales para empresas, tendientes a prever, evitar y resolver conflictos y problemáticas.</p>
+
+            
+           </div>
+  
+     </div>
+     
+                 
+</div>
+                  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Universidades</h1>
+          <div>
+     <p>Universidad Nacional Autónoma de México (UNAM)</p>
+     <p>Centro de Investigación y Docencia Económicas (CIDE).</p>
+     <p>Universidad  Iberoamericana.</p>
+     <p>Instituto Tecnológico Autónomo de México (ITAM). </p>
+    <p> Universidad Panamericana. </p>
+     <p>Tecnológico de Monterrey (ITESM).</p>
+     <p>Escuela Libre de Derecho. </p>
+     <p>Universidad Autónoma Metropolitana (UAM).</p>
+     <p>Universidad Anáhuac.</p>
+     <p>Universidad Tecnológica de México (UNITEC). </p>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+                  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Campos Laborales</h1>
+          <div>
+        
+            <p> Áreas legales de las empresas para prevenir o solucionar conflictos judiciales o extrajudiciales.</p>
+<p>Despachos de abogados.</p>
+<p>Dependencias gubernamentales nacionales o internacionales.</p>
+<p>Organizaciones no lucrativas a favor de los derechos humanos.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/derecho1.jpg',1)"><img src="imagenes/derecho3.jpg" width="50%" height="50%" id="Image"></a> </div>
+  
+     </div>
+     
+                 
+</div>
+
+
+
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Diez</h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+    
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>GASTRONOMIA </h1>
+  </div>
+  <div data-role="content" align="">
+    <div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+   
+        <h1>¿De que se trata?</h1>
+          <div>
+   La demanda del consumo de alimentos y bebidas fuera del lugar habitual de residencia lleva, por sí misma, a dos formas de clasificación. La primera de ellas es la ejercida conjuntamente con la demanda de alojamiento misma que se desarrolló a la par con el surgimiento de los viajes pero cuya importancia ha crecido en la época moderna, ya que anteriormente el viajero tenía que llevar sus propios alimentos a los lugares en los que se alojaba por una noche o más; debido a lo anterior, la mayor parte de los establecimientos de hospedaje comenzaron a ofrecer al viajero este servicio y continuaron haciéndolo hasta el surgimiento del turismo.
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/comida3.jpg',1)"><img src="imagenes/comida2.jpg" width="50%" height="50%" id="Image17"></a> </div>
+  
+     </div>
+     
+                 
+</div>
+  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Universidades</h1>
+          <div>
+     <p>Universidad Nacional Autónoma de México (UNAM)</p>
+     <p>Centro de Investigación y Docencia Económicas (CIDE).</p>
+     <p>Universidad  Iberoamericana.</p>
+     <p>Instituto Tecnológico Autónomo de México (ITAM). </p>
+    <p> Universidad Panamericana. </p>
+     <p>Tecnológico de Monterrey (ITESM).</p>
+     <p>Escuela Libre de Derecho. </p>
+     <p>Universidad Autónoma Metropolitana (UAM).</p>
+     <p>Universidad Anáhuac.</p>
+     <p>Universidad Tecnológica de México (UNITEC). </p>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+  <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Campos laborales</h1>
+          <div>
+    <p> El campo laboral es muy extenso : Gerente de alimentos y bebidas; Chef de control de calidad alimentos; Chef corporativo de una cadena alimentaria; En cocinas: chef ejecutivo de hoteles, club privado, restaurantes nacionales e internacionales, hospitales, comedores industriales, cocinas de gobierno, de aeropuertos, centros comerciales, cocinas nutricionales, pastelerías finas, panaderías finas, guía gastronómico en museos; chef particular de un empresario; chef propietario de un restaurante, de un club deportivo, en cruceros o barcos privados; chef para centros de convenciones o de salones de banquetes; chef para casinos; instructor en escuela de gastronomía; chef diseñador de menús para revistas o periódicos; chef asesor para hoteles, restaurantes, hospital escuela, comedor, entre otros.</p>
+     <iframe width="60%" height="70%" src="https://www.youtube.com/embed/9nU3fZpkzus" frameborder="0" allowfullscreen></iframe>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+ </p></div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Diez</h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+       </div>
+      </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>MERCADOTECNIA</h1>
+  </div>
+  <div data-role="content" align="">
+    <div>
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>¿De que se trata?</h1>
+          <div>
+   <p> La mercadotecnia es una carrera muy importante porque relaciona los conceptos de mercadeo y ventas de manera integral. Además de que la comercialización es el punto fuerte de la mayoría de las empresas, si decides estudiar mercadotecnia, vas a tener muchas posibilidades de trabajar en un mercado global, en el cual tengas muchas oportunidades de crecimiento, especialmente si posees grandes habilidades de liderazgo.
+
+Para estudiar mercadotecnia, debes tener como mínimo un interés pronunciado por emprender caminos que te lleven a visualizar el mercado como una gran plaza, para que lleves a cabo todos los proyectos que desees materializar, porque el mercado es muy cambiante, lo que es hoy ya no lo es mañana.</p>
+<iframe width="60%" height="60%" src="https://www.youtube.com/embed/OVOALkqShBw" frameborder="0" allowfullscreen></iframe>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Universidades</h1>
+          <div>
+     <p>Universidad Nacional Autónoma de México (UNAM)</p>
+     <p>Centro de Investigación y Docencia Económicas (CIDE).</p>
+     <p>Universidad  Iberoamericana.</p>
+     <p>Instituto Tecnológico Autónomo de México (ITAM). </p>
+    <p> Universidad Panamericana. </p>
+     <p>Tecnológico de Monterrey (ITESM).</p>
+     <p>Escuela Libre de Derecho. </p>
+     <p>Universidad Autónoma Metropolitana (UAM).</p>
+     <p>Universidad Anáhuac.</p>
+     <p>Universidad Tecnológica de México (UNITEC). </p>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">
+        <h1>Campos laborales</h1>
+          <div>
+    <p>Ejecutivos de publicidad</p>
+<p>Coordinadores de promociones</p>
+<p>Asesores de relaciones con los clientes</p>
+<p>Analistas de investigación</p>
+<p>Representantes de ventas</p>
+<p>Gerentes de relaciones públicas</p>
+<p>Ejecutivo de cuentas</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/merca4.jpg',1)"><img src="imagenes/merca3.jpg" width="60%" height="70%" id="Image16">
+<br>
+</a> <a href="http://www.cump.edu.mx/art%C3%ADculos-de-inter%C3%A9s/item/255-por-que-elegir-mercadotecnia-como-camino-a-seguir/">Da click para ver mas informacion</a>
+<br>
+           </div>
+  
+     </div>
+     
+                 
+</div>
+
+</div>
+      </div>
+     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>  
+       <h4>Aplicacion Diez</h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+   
+   </div>
+     <h4>Óscar Josmar Martínez Picazo</h4>
+     </div>
+     </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
